@@ -1,0 +1,3 @@
+[submodule "phue"]
+	path = phue
+	url = git://github.com/sudioimaginaire/phue.git
