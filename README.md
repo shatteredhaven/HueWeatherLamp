@@ -22,6 +22,7 @@ Requirements:
 
 Contents: 
 - HueWeatherLamp.py - python script for weather lamp
+- HueWeatherLamp.sh - shell script to execute python script (only needed if there are issues with getting cron to execute the python script)
 - temp.txt - text file python writes the current day's temperature to
 - weatherball - cron job example
 

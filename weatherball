@@ -2,3 +2,5 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 #execute by typing crontab <filename>
 # m h  dom mon dow   command
   0 7 * * *    /usr/bin/python /PATH/TO/FILE/HueWeatherLamp.py
+# this is an alternative cron job example if there are any issues running the python script directly in cron
+#  0 7 * * *    /PATH/TO/FILE/weatherballpy.sh
